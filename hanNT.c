@@ -11,7 +11,7 @@ void hanNT ( int x, int y, int k)
 	}
 	
 	int temp= 6-x-y;
-	hanNT ( x,temp,k-1);
+	hanNT ( x, temp, k-1);
 	printf ( "%c -> %c\n", d[x], d[y]);
 	hanNT ( temp, y, k-1);
 	return ;
