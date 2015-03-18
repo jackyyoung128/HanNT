@@ -20,7 +20,7 @@ void hanNT ( int x, int y, int k)
 int main ()
 {
 	int n;
-	printf ( "请输入你想要的汉诺塔个数:");
+	printf ( "Please input a num:");
 	scanf ( "%d", &n);
 	hanNT ( 1, 3, n);
 }
